@@ -23,9 +23,7 @@
 					%h1.dancing-script.title.no-margin ASD Restaurant
 					%p#is-open OPEN
 			%nav.fixed.top.right.white-text#navigation
+				-menu = ["Home", "Menu", "Gallery", "Contact", "Location"]
 				%ul.list-inline.navigation
-					%li Home
-					%li Menu
-					%li Gallery
-					%li Contact Us
-					%li Location
+					-menu.each do |item|
+						%li= item
