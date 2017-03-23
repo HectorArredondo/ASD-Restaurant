@@ -177,6 +177,9 @@ video {
 .right {
     right: 5em;
 }
+.medium {
+    font-size: 1.5em;
+}
 
 .navigation {
     li {
@@ -196,9 +199,22 @@ video {
     }
 }
 
-.medium {
-    font-size: 1.5em;
+.full-width {
+    width: 100%;
 }
+.dark-grey {
+    background-color: #222;
+}
+.absolute {
+    position: absolute;
+}
+.bottom {
+    bottom: 0px;
+}
+.large-padding {
+    padding: 10px 15px;
+}
+
 
 
 /*
